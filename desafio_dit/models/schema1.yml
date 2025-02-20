@@ -1,0 +1,51 @@
+
+version: 2
+
+models:
+  - name: clientes
+    description: "blalblabla"
+    columns: 
+      - name: id
+        description: "blabla0"
+        data_tests:
+          - unique
+          - not_null
+      - name: nome
+        description: "blabla"
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        description: "blabla2"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: clientes_filtrados
+    description: "blalblabla"
+    columns: 
+      - name: id
+        description: "blabla0"
+        data_tests:
+          - unique
+          - not_null
+      - name: nome
+        description: "blabla"
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        description: "blabla2"
+        data_tests:
+          - unique
+          - not_null
+
+
+  # - name: my_second_dbt_model
+  #   description: "A starter dbt model"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       data_tests:
+  #         - unique
+  #         - not_null

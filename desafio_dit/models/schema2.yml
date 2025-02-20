@@ -1,0 +1,88 @@
+
+version: 2
+
+models:
+  - name: meu_modelo_python
+    description: "blalblabla"
+    columns: 
+      - name: id_paciente
+        description: "blabla0"
+      - name: sexo biologico
+        description: "blabla"
+      - name: bairro
+        description: "blabla2"
+      - name: raca_cor
+        description: "blabla2"
+      - name: ocupacao
+        description: "blabla2"
+      - name: religiao
+        description: "blabla2"
+      - name: luz_eletrica
+        description: "blabla2"
+      - name: data_cadastro
+        description: "blabla2"
+      - name: escolaridade
+        description: "blabla2"
+      - name: nacionalidade
+        description: "blabla2"
+      - name: renda_familiar
+        description: "blabla2"
+      - name: data_nascimento
+        description: "blabla2"
+      - name: em_situacao_de_rua
+        description: "blabla2"
+      - name: frequenta_escola
+        description: "blabla2"
+      - name: meios_transporte
+        description: "blabla2"
+      - name: doencas_condicoes
+        description: "blabla2"
+      - name: identidade_genero
+        description: "blabla2"
+      - name: meios_comunicacao
+        description: "blabla2"
+      - name: orientacao_sexual
+        description: "blabla2"
+      - name: possui_plano_saude
+        description: "blabla2"
+      - name: em_caso_doenca_procura
+        description: "blabla2"
+      - name: situacao_profissional
+        description: "blabla2"
+      - name: vulnerabilidade_social
+        description: "blabla2"
+      - name: situacao_profissional
+        description: "blabla2"
+      - name: data_atualizacao_cadastro
+        description: "blabla2"
+      - name: familia_beneficiaria_auxilio_brasil
+        description: "blabla2"
+      - name: crianca_matriculada_creche_pre_escola
+        description: "blabla2"
+      - name: altura
+        description: "blabla2"
+      - name: peso
+        description: "blabla2"
+      - name: pressao_sistolica
+        description: "blabla2"
+      - name: pressao_diastolica
+        description: "blabla2"
+      - name: n_atendimentos_atencao_primaria
+        description: "blabla2"
+      - name: n_atendimentos_hospital
+        description: "blabla2"
+      - name: updated_at
+        description: "blabla2"
+      - name: tipo
+        description: "blabla2"
+
+
+
+  # - name: my_second_dbt_model
+  #   description: "A starter dbt model"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       data_tests:
+  #         - unique
+  #         - not_null
